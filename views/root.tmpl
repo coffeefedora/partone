@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>App Root</title>
+	<link rel="icon" href="siteicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="siteicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="/css/site.css" /> 
+</head>
+
+<body>
+	<div>
+		You have reached the starter page for partone
+	</div>
+	
+	<div>
+		Testing static path direct to image <br />
+		<img src="/img/endless-knot-48x48.png"> 
+	</div>
+
+	<div>
+		Testing css relative path to static images.  should see same image from above.
+		<div class="siteIcon" style="display:block; width:50px;height:50px;">
+			&nbsp;
+		</div>
+	</div>
+
+	<p>Should see some text in the aqua colored div.  Proves jquery static link worked.</p>
+	<div id="jqueryTest" class="siteBackground">
+		
+	</div>
+
+	<script src="/scripts/jquery-3.3.1.min.js"></script>
+	<script>
+		$(function() {
+			$('#jqueryTest').text('jquery loaded');
+		});
+	</script>
+</body>
+
+</html>

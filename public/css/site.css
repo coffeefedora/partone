@@ -1,0 +1,9 @@
+.siteBackground {
+    background-color: aqua;
+}
+
+.siteIcon {
+    width: 48px;
+    height: 48px;
+    background-image: url(../img/endless-knot-48x48.png)
+}
